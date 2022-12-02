@@ -1,0 +1,25 @@
+{
+  "name": "thermodelchoc-sendmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/jeremieblg/thermodelchoc-sendmail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jeremieblg/thermodelchoc-sendmail/issues"
+  },
+  "homepage": "https://gitlab.com/jeremieblg/thermodelchoc-sendmail#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-mailjet": "^3.3.4",
+    "nodemon": "^2.0.15"
+  }
+}
